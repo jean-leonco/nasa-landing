@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Charles</title>
+
+    <link rel="icon" href="/img/logo.png" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="center">
+        <h1>Charles</h1>
+
+        <a href="#" class="menu">
+          <i class="fa fa-bars"></i>
+        </a>
+
+        <nav>
+          <a href="#home">Home</a>
+          <a href="#about">Sobre</a>
+          <a href="#team">Nosso time</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="banner">
+      <a name="home"></a>
+      <div class="center">
+        <div class="banner-text">
+          <h1>Você sabe o que fazer numa situação de CATÁSTROFE?</h1>
+          <p>
+            Com o Charles é possivel além de saber, obter muitas outras
+            informações que vão melhorar sua vida.
+          </p>
+
+          <div class="banner-links">
+            <a
+              href="https://web.whatsapp.com/send?phone=5541988231899"
+              class="banner-btn"
+            >
+              Quero embarcar
+              <i class="fa fa-rocket"></i>
+            </a>
+            <a
+              href="https://2019.spaceappschallenge.org/challenges/living-our-world/smash-your-sdgs/details"
+              >Mais informações</a
+            >
+          </div>
+        </div>
+
+        <img src="img/banner.png" alt="" />
+      </div>
+    </section>
+
+    <section class="about">
+      <a name="about"></a>
+      <div class="center">
+        <img src="img/nasa.png" alt="Nasa Space Apps" />
+
+        <div class="about-text">
+          <h1>Inteligência artificial em prol do bem-estar</h1>
+          <p>
+            Para atingir o desafio proposto pelo Hackathon Nasa Space Apps
+            Challenge, solucionar uma meta dos
+            <a href="https://nacoesunidas.org/pos2015/agenda2030/">ODS</a>, o
+            projeto tem como foco:
+          </p>
+
+          <ul>
+            <li>
+              <i class="fa fa-check"></i>
+              ODS 11
+            </li>
+            <li>
+              <i class="fa fa-check"></i>
+              Notícias, informações e campanhas educativas.
+            </li>
+            <li>
+              <i class="fa fa-check"></i>
+              Alertas baseados em previsão de alterações climáticas e iminência
+              de catástrofes.
+            </li>
+            <li>
+              <i class="fa fa-check"></i>
+              Automatização do cadastro de ocorrências, facilitando o socorro e
+              atividades logísticas.
+            </li>
+            <li>
+              <i class="fa fa-check"></i>
+              Mobilização da comunidade no apoio e provisão de suprimentos
+              emergenciais.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="tech">
+      <a name="team"></a>
+      <div class="center">
+        <h2>Nosso time</h2>
+        <h3>
+          Aqueles que idealizaram, desenvolveram e transformaram em realidade
+        </h3>
+
+        <div class="tech-list">
+          <div class="tech-wrapper">
+            <a
+              href="https://www.linkedin.com/in/douglas-lara-22094a6a/?originalSubdomain=br"
+              class="tech-item"
+            >
+              <img class="avatar" src="img/douglas.jpeg" alt="Douglas Lara" />
+              <h4>Douglas Lara</h4>
+              <p>
+                Fundador da Zimobi e desenvolvedor. Atualmente trabalha com ruby
+                on rails e é apaixonado por tecnologia.
+              </p>
+            </a>
+          </div>
+
+          <div class="tech-wrapper">
+            <a
+              href="https://www.linkedin.com/in/isabelle-sois/"
+              class="tech-item"
+            >
+              <img class="avatar" src="img/isabelle.jpeg" alt="Isabelle Sois" />
+              <h4>Isabelle Sois</h4>
+              <p>
+                Estudante de Engenharia Civil, professora de inglês, atua em
+                projetos sociais na área de educação e oportunidades para
+                jovens.
+              </p>
+            </a>
+          </div>
+
+          <div class="tech-wrapper">
+            <a
+              href="https://www.linkedin.com/in/jean-leon%C3%A7o-b64111149/"
+              class="tech-item"
+            >
+              <img class="avatar" src="img/jean.jpg" alt="Jean Leonço" />
+              <h4>Jean Leonço</h4>
+              <p>
+                Tem sua carreira focada em development full-stack, atuando com
+                Node.js, React Js e React Native.
+              </p>
+            </a>
+          </div>
+
+          <div class="tech-wrapper">
+            <a
+              href="https://www.linkedin.com/in/priscillapreks/"
+              class="tech-item"
+            >
+              <img
+                class="avatar"
+                src="img/priscilla.jpeg"
+                alt="Priscilla Preks"
+              />
+              <h4>Priscilla Preks</h4>
+              <p>
+                Publicitária, servidora pública e entusiasta de novas
+                tecnologias. Ampliando a carreira para a área de A.I e big data
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <img src="img/logo.png" alt="Charles" />
+      <p>The life-changing system <i class="fa fa-heart"></i></p>
+    </footer>
+
+    <script>
+      const menu = document.querySelector('.menu');
+      menu.addEventListener('click', function() {
+        this.classList.toggle('open');
+      });
+    </script>
+  </body>
+</html>
